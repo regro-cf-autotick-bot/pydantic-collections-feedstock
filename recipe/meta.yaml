@@ -1,5 +1,5 @@
 {% set name = "pydantic-collections" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic-collections-{{ version }}.tar.gz
-  sha256: 4e8f7ef091e5bcc73e5008b3c1fa97222f5bf4219081bc346001b62a92ecd70b
+  sha256: fdd212205344d499561dc53583d8ef166f83caeee649bd0070b819d4eb4c5c34
 
 build:
   noarch: python
